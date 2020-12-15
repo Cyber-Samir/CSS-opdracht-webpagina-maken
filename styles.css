@@ -1,0 +1,44 @@
+body {
+    font-family: Lucida Sans Unicode, serif;
+    background-color: hsl(74, 95%, 93%)
+}
+
+header {
+    background-color: hsl(63, 56%, 38%);
+    border-style: dashed;
+    border-color: hsl(63, 56%, 10%);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+article.a { margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+}
+div.circle-one {background-color: hsl(23, 100%, 65%);
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    margin: -15px 1px 10px 5px;
+    box-shadow: 1px 1px 8px hsl(63, 56%, 20%);
+}
+
+div.circle-two {background-color: hsl(23, 100%, 65%);
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    margin: -64px 1px 10px 80px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+article {
+    background-color: hsl(63, 56%, 70%);
+    border-color: hsl(63, 56%, 38%);
+    border-style: solid;
+    margin: 20px 10px 10px 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-left: 13px;
+}
